@@ -7,7 +7,7 @@
 
 body {
     background-color: #0a6b5b;
-    width: 100%;
+    width: 50%;
     height: 100vh; 
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
 }
 
 .container-input {
-    max-width: 480px;
+    max-width: 500px;
     margin: 25px 0;
 }
 
@@ -109,3 +109,17 @@ body {
     bottom: 70px;
     opacity: 1;
 }
+
+/* Reponsividade */ 
+@media screen and (min-width: 400px) {
+    
+    body {
+        display: flex;
+    }
+    
+    main {
+      margin: 1em 2em;
+    }
+
+
+  }
